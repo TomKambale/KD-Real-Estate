@@ -1,6 +1,6 @@
 // Navbar.js
 import React from 'react';
-import LogoImage from '/home/mathais/Development/Code/kdestate/kd/src/assets/KD.png';
+import LogoImage from '../assets/KD.png';
 import '../App.css';
 
 const Navbar = () => {

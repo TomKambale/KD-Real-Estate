@@ -92,10 +92,10 @@ const About = () => {
             
             <h3 className="mt-4 text-center text-#4D5B5D">Why Choose KD Real Estate Agents?</h3>
             <ul className="list-unstyled">
-            <p><li>
+            <p></p>
+              <li>
                 <strong className='text'>Expertise that Transcends Boundaries:</strong> Our team comprises seasoned professionals who possess an intricate understanding of the real estate market. We leverage this expertise to navigate the complexities of land transactions seamlessly, ensuring your interests are safeguarded every step of the way.
-              </li></p>
-              
+              </li>
               <p><li>
                 <strong className='text'>Tailored Solutions, Personalized Service:</strong> Understanding that every client and property is unique, we craft bespoke strategies to suit your distinct needs. Whether you are seeking to acquire prime land or secure the best value for your property, we tailor our services to align with your goals.
               </li></p>
