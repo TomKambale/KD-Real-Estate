@@ -44,9 +44,10 @@
   /* background-image: url('https://via.placeholder.com/1500x800'); */
   background-size: cover;
   background-position: center;
+  /* background-color: #8E94AC; */
   color: black; /* Text color over the background image */
   padding-top: 15px; /* Adjust the top padding to ensure content is visible */
-  padding-bottom: 150px; /* Adjust the bottom padding as needed */
+  padding-bottom: 15px; /* Adjust the bottom padding as needed */
   font-family: 'Kalnia', serif;
 font-family: 'Playfair Display', serif;
 }
@@ -63,3 +64,36 @@ font-family: 'Playfair Display', serif;
 .py-5 {
   font-family: 'Playfair Display', serif;
 }
+
+.logo-img
+{
+  background-color: #4D5B5D
+}
+.testimonials
+{
+  padding-top: 15px; /* Adjust the top padding to ensure content is visible */
+  background-color: #8E94AC;
+  font-family: 'Playfair Display', serif;
+
+}
+:root {
+  --aspect-ratio: 16 / 9;
+ }
+ 
+ .rounded {
+  object-fit: cover;
+  width: 100%;
+  height: calc(100% * var(--aspect-ratio));
+ }
+ 
+ .img-fluid {
+  max-width: 100%;
+  height: auto;
+ }
+ .text {
+  color: #4D5B5D;
+ }
+
+ .title {
+  color: #7F706E;
+ }
