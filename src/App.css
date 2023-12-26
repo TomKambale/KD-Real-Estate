@@ -1,3 +1,5 @@
+
+/* App.css (or your main CSS file) */
 .App {
   text-align: center;
 }
@@ -35,4 +37,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* About.css */
+.about-section {
+  /* background-image: url('https://via.placeholder.com/1500x800'); */
+  background-size: cover;
+  background-position: center;
+  color: black; /* Text color over the background image */
+  padding-top: 15px; /* Adjust the top padding to ensure content is visible */
+  padding-bottom: 150px; /* Adjust the bottom padding as needed */
+  font-family: 'Kalnia', serif;
+font-family: 'Playfair Display', serif;
+}
+
+/* Navbar.css */
+.nav-section {
+  font-family: 'Playfair Display', serif;
+}
+.logo-img {
+  height: 90px; /* Adjust the height as needed */
+  /* You can add more styling if necessary */
+}
+
+.py-5 {
+  font-family: 'Playfair Display', serif;
 }
