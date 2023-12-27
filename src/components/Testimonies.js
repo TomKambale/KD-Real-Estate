@@ -4,9 +4,8 @@ function Testimonies() {
   return (
     <section id="testimonies"className='testimonies'>    
     <div >
-        <div class="container text-center text-black">
+        <div class="container text-center ">
         <h2>Reviews</h2>
-
   <div class="row">
     <div class="col align-self-start">
     <h3> - Amina Njeri -</h3>

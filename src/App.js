@@ -2,8 +2,9 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Contact from './components/Contact';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Testimonies from './components/Testimonies';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 const App = () => {

@@ -4,10 +4,11 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-5">
+    <section id="contact" className="contact">
       <div className="container">
         <div className="row">
-          </div>
+        <div className="mt-2 col-lg-12 text-center">
+          
           <div className="contact">
             <h2>Contact Us</h2>
             <p>
@@ -21,12 +22,14 @@ const Contact = () => {
               <li>
                 Email   : info@kdrealestate.com
               </li>
-            </ul>
-          </div>
-          <div className="motivation">
-<p className='footer text-center'>Syre Consultancy- 2023</p>
+            </ul>      
+                {/* <div className="motivation"> */}
+                  <p className='footer text-center'>Syre Consultancy- 2023</p>
         </div>
-      </div>
+          </div>
+          </div>
+          </div>
+      {/* </div> */}
     </section>
   );
 };
