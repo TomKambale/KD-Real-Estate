@@ -2,8 +2,10 @@ import React from 'react'
 
 function Testimonies() {
   return (
-    <div className='testimonials'><div class="container text-center text-black">
-        <h2>Testimonials</h2>
+    <section id="testimonies"className='testimonies'>    
+    <div >
+        <div class="container text-center text-black">
+        <h2>Reviews</h2>
 
   <div class="row">
     <div class="col align-self-start">
@@ -35,6 +37,8 @@ function Testimonies() {
     
   </div>
 </div></div>
+</section>
+
 
 
   )

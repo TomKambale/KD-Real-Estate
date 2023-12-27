@@ -44,6 +44,7 @@
   /* background-image: url('https://via.placeholder.com/1500x800'); */
   background-size: cover;
   background-position: center;
+  /* background-color: #4D5B5D; */
   /* background-color: #8E94AC; */
   color: black; /* Text color over the background image */
   padding-top: 15px; /* Adjust the top padding to ensure content is visible */
@@ -69,16 +70,16 @@ font-family: 'Playfair Display', serif;
 {
   background-color: #4D5B5D
 }
-.testimonials
+.testimonies
 {
   padding-top: 15px; /* Adjust the top padding to ensure content is visible */
-  background-color: #8E94AC;
+  /* background-color: #8E94AC; */
   font-family: 'Playfair Display', serif;
 
 }
-:root {
+/* :root {
   --aspect-ratio: 16 / 9;
- }
+ } */
  
  .rounded {
   object-fit: cover;
@@ -87,7 +88,7 @@ font-family: 'Playfair Display', serif;
  }
  
  .img-fluid {
-  max-width: 100%;
+  max-width: auto;
   height: auto;
  }
  .text {
@@ -97,3 +98,9 @@ font-family: 'Playfair Display', serif;
  .title {
   color: #7F706E;
  }
+
+ .contact
+{
+  padding-top: 15px;
+  /* background-color: #B9BED4; */
+}
