@@ -39,14 +39,27 @@
   }
 }
 
-body {
+/* body {
   font-family: 'Roboto', sans-serif;
-}
-.navbar-brand {
-  color: 'black'; /* Set your desired text color */
+} */
+/* .navbar-brand {
+  color: 'black'; 
   font-weight: 400;
-  font-size: 16px; /* Adjust font size as needed */
+  font-size: 16px; 
   line-height: 22.72px;
+} */
+
+/* Navbar.css */
+
+.navbar-brand {
+  font-family: 'Rozha One', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.72px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black; /* Set your desired text color */
+  text-decoration: none; /* Remove default underline */
 }
 
 
@@ -54,7 +67,7 @@ body {
 
 
 
-#about h2 {
+/* #about h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 64px;
   font-weight: 800;
@@ -62,15 +75,59 @@ body {
   letter-spacing: 0em;
   text-align: center;
   margin-top: 4rem;
-}
+} */
 .farm{
 width: '1440px';
-     height: '594px';
+     height: '394px';
      top: '80px';
      left: '-14px';
      position: 'absolute';
      color: 'white';
-     
+}
+
+
+.abtitle {
+  width: 940px;
+  height: 170px;
+  top: 183px;
+  left: 160px;
+  position: absolute;
+  text-align: center;
+  color: white;
+}
+
+.abtitle h2 {
+  /* font-size: 64px; */
+  font-weight: 800;
+  line-height: 75px;
+  /* font-style: italic; */
+  font-size: 24px; /* Adjust as needed */
+  line-height: 1.5; /* Adjust as needed */
+  max-width: 900px; /* Adjust as needed */
+  margin: 0 auto; /* Center the text horizontally */
+  padding: 10px; /* Add padding as needed */
+}
+
+/* Text.css */
+
+
+.abtext {
+  width: 833px;
+  height: 112px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  gap: 10px;
+  position: absolute;
+  text-align: center;
+}
+
+.abtext p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  color: white;
 }
 
 /* Testimonies.css */
@@ -105,49 +162,9 @@ width: '1440px';
 /* About.css */
 /* About.css */
 
-.container-about {
+/* .container-about {
   position: relative;
-}
+} */
 /* Title.css */
 
-.abtitle {
-  width: 940px;
-  height: 170px;
-  top: 183px;
-  left: 160px;
-  position: absolute;
-  text-align: center;
-  color: white;
-}
-
-.abtitle h2 {
-  font-style: italic;
-  font-size: 24px; /* Adjust as needed */
-  line-height: 1.5; /* Adjust as needed */
-  max-width: 900px; /* Adjust as needed */
-  margin: 0 auto; /* Center the text horizontally */
-  padding: 10px; /* Add padding as needed */
-}
-
-/* Text.css */
-
-
-.abtext {
-  width: 833px;
-  height: 112px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 20px;
-  gap: 10px;
-  position: absolute;
-  text-align: center;
-}
-
-.abtext p {
-  font-size: 16px;
-  line-height: 1.5;
-  margin: 0;
-  color: white;
-}
 
