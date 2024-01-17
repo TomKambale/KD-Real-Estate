@@ -29,7 +29,7 @@
 //   ];
 
 //   return (
-//     <section id="about" className="about-section">
+//     <section id="services" className="services-section">
 //       <div className="container">
 //         <div className="row">
 //           {columnsData.map((column, index) => (
@@ -78,8 +78,12 @@ function Services() {
   ];
 
   return (
-    <section id="about" className="about-section">
+    <section id="services" className="services-section">
       <div className="container">
+        <h2 className='services-heading'>Why Choose KD Real Estate Agents?</h2>
+        <p>
+            <h2 className='services-sub'>Here are reasons for you to work with us  </h2>
+        </p>
         <div className="row">
           {columnsData.map((column, index) => (
             <div key={index} className={`col-md-3 ${index < columnsData.length - 1 ? 'border-end' : ''}`}>

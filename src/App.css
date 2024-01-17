@@ -39,16 +39,6 @@
   }
 }
 
-/* body {
-  font-family: 'Roboto', sans-serif;
-} */
-/* .navbar-brand {
-  color: 'black'; 
-  font-weight: 400;
-  font-size: 16px; 
-  line-height: 22.72px;
-} */
-
 /* Navbar.css */
 
 .navbar-brand {
@@ -62,20 +52,6 @@
   text-decoration: none; /* Remove default underline */
 }
 
-
-/* styles.css */
-
-
-
-/* #about h2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 64px;
-  font-weight: 800;
-  line-height: 75px;
-  letter-spacing: 0em;
-  text-align: center;
-  margin-top: 4rem;
-} */
 .farm{
 width: '1440px';
      height: '394px';
@@ -130,6 +106,30 @@ width: '1440px';
   color: white;
 }
 
+/* App.css */
+
+.services-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 58.59px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 4rem; /* Adjust margin-top as needed */
+  color: #282c34; /* Set your desired text color */
+}
+.services-sub {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.13px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 2rem; /* Adjust margin-top as needed */
+  color: #282c34; /* Set your desired text color */
+}
+
+
 /* Testimonies.css */
 #testimonies {
   display: flex;
@@ -158,6 +158,29 @@ width: '1440px';
   ;
 }
 
+
+/* styles.css */
+
+/* body {
+  font-family: 'Roboto', sans-serif;
+} */
+/* .navbar-brand {
+  color: 'black'; 
+  font-weight: 400;
+  font-size: 16px; 
+  line-height: 22.72px;
+} */
+
+
+/* #about h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 4rem;
+} */
 
 /* About.css */
 /* About.css */
