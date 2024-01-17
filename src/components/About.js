@@ -157,19 +157,25 @@ const About = () => {
       <div className="container-about">
         <div className="row">
           <div className="semaje">
-            <div className="text-component" >
-              <img src={image} className="farm img-fluid" alt="shamba"  />
-              <h2 className="mt-4 text-center lead italic">
+          <img src={image} className="farm img-fluid" alt="shamba"  />
+
+            <div className="text-component text-center" >
+              <div className='abtitle'>
+                <h2 className="mt-4 text-center lead italic">
                 We are your Premier Partners in Land Acquisition and Sales
               </h2>
+              </div>
+              
               {/* Additional text content */}
-              <p className='about-component'>
+              <div className='abtext'>
+                <p className='about-component'>
                 At KD Real Estate Agents, we are not just facilitators; we are
                 your dedicated partners in realizing your land acquisition and
                 sales aspirations. With a legacy of excellence and a commitment
                 to unparalleled service, we are your beacon in the dynamic
                 landscape of real estate.
               </p>
+              </div>
             </div>
           </div>
         </div>
