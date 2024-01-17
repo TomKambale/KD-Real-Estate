@@ -4,6 +4,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Testimonies from './components/Testimonies';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Services from './components/Services';
 
 
 
@@ -12,6 +13,7 @@ const App = () => {
     <div>
       <Navbar />
       <About />
+      <Services/>
       <Testimonies/>
       <Contact />
       
