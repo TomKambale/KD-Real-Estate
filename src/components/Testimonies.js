@@ -79,7 +79,7 @@ function Testimonies() {
                       </p>
                     </div>
                   </div>
-                  <h3 className="card-title mb-0">Amina Njeri</h3>
+                  <h3 className="card-title mb-0 text-center">Amina Njeri</h3>
 
                 </div>
               </div>
