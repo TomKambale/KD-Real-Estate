@@ -1,10 +1,14 @@
 import React from 'react';
+import '../App.css';
+
 
 function Navbar() {
   return (
     <section id='nav' className='navigation'>
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
+
       <div className="container-fluid">
+      <h4 className='logo'>KD</h4>
         <a className="navbar-brand text-bold" href="/">KD REAL ESTATE</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>

@@ -139,7 +139,7 @@
 // export default About;
 
 import React from 'react';
-import image from "../assets/farmsunset.jpg";
+import image from "../assets/farm.png";
 import '../App.css'; // Import your CSS file
 
 const About = () => {
@@ -154,32 +154,33 @@ const About = () => {
 
   return (
     <section id="about" className="about-section">
-      <div className="container-about">
-        <div className="row">
-          <div className="semaje">
+      {/* <div className="container-about"> */}
+        {/* <div className="row"> */}
+          {/* <div className="semaje"> */}
           <img src={image} className="farm img-fluid" alt="shamba"  />
 
-            <div className="text-component text-center" >
+            <div className="text-component " >
               <div className='abtitle'>
-                <h2 className="mt-4 text-center lead italic">
-                We are your Premier Partners in Land Acquisition and Sales
+                <h2 className="lead ">
+                We are your Premier Partner<p>in Land Acquisition and Sales</p> 
               </h2>
               </div>
-              
-              {/* Additional text content */}
               <div className='abtext'>
-                <p className='about-component'>
-                At KD Real Estate Agents, we are not just facilitators; we are
+                <p >
+                At KD Real Estate Agents, we are not just facilitators.
+                <p>We are
                 your dedicated partners in realizing your land acquisition and
-                sales aspirations. With a legacy of excellence and a commitment
-                to unparalleled service, we are your beacon in the dynamic
-                landscape of real estate.
+                sales aspirations.</p>
+                <p>With a legacy of excellence and a commitment
+                to unparalleled service, we are your beacon</p>
+                <p>in the dynamic
+                landscape of real estate.</p> 
               </p>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+          {/* </div> */}
+        {/* </div> */}
+      {/* </div> */}
     </section>
   );
 };

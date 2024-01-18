@@ -36,13 +36,15 @@
 // export default Contact;
 
 import React from "react";
+import '../App.css';
+
 
 const Contact = () => {
   return (
     <section id="contact" className="contact">
       <div className="container">
         <div className="row">
-          <div className="col-lg-3 mt-2 text-center">
+          <div className="col-lg-3 mt-2 text-start">
             <div className="contact-column">
               <h2>KD REAL ESTATE</h2>
               <p>
