@@ -218,11 +218,11 @@
 .abtitle {
   width: 941px Fixed; /* Fixed width */
   height: 170px Hug; /* Hug height */
-  top: 183px;
+  /* top: 183px; */
   left: 274px;
-  padding: 10px;
-  gap: 10px;
-  font-style: 'Roboto';
+  /* padding: 10px; */
+  /* gap: 10px; */
+  font-style: 'Roboto, san-serif';
   color: white;
   font-size: 64px;
   font-weight: 800;
@@ -247,7 +247,7 @@
   color: white;
   width: 833px hug; /* Hug width */
   height: 112px hug; /* Hug height */
-  top: 403px;
+  /* top: 403px; */
   left: 328px;
   padding: 10px;
   gap: 10px;
@@ -456,23 +456,23 @@ gap: 40px;
 }
 
 /* Testimonies.css */
-#testimonies {
+/* #testimonies {
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Set to 100% of the viewport height */
-}
+  height: 100vh; /* Set to 100% of the viewport height 
+} */
 
-.testimonies h2 {
+/* .testimonies h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 50px;
   font-weight: 500;
   line-height: 58.59px;
   letter-spacing: 0em;
-  margin-bottom: 2rem; /* Add margin bottom for spacing */
-}
+  margin-bottom: 2rem; /* Add margin bottom for spacing 
+} */
 
 .card-container {
   display: flex;

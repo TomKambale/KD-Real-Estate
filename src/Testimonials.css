@@ -9,7 +9,7 @@
   
   /* Frame 20 */
   .testimonials-frame {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     position: absolute;
     width: 656px;
     height: 241px;
@@ -72,7 +72,7 @@
     position: absolute;
     width: 130px;
     height: 23px;
-    left: 200px;
+    left: 210px;
     top: 200px;
   }
   
@@ -126,7 +126,7 @@
     width: 498px;
     height: 28px;
     left: calc(50% - 498px/2 - 7px);
-    top: 70px;
+    top: 50px;
   }
   
   .testimonials-subheading-text {

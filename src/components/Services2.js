@@ -7,6 +7,7 @@ import '../Services2.css';
 
 const Services2 = () => {
   return (
+    <section id='services' className='services'>
     <div className="services2-container">
       {/* WFD heading */}
       <div className="wfd-heading">
@@ -67,6 +68,7 @@ const Services2 = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

@@ -5,6 +5,7 @@
 
 /* Auto layout */
 .services2-container {
+    background-color: yellow;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -12,10 +13,9 @@
     padding: 0px;
     gap: 40px;
     position: absolute;
-    width: 1440px;
+    width: 100%; /* Use 100% for full width */
     height: 522px;
-    left: calc(50% - 1440px/2 - 0.5px);
-    top: 1117px;
+    top: 890px;
   }
   
   /* WFD heading */
@@ -25,13 +25,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
     gap: 20px;
     position: absolute;
     width: 835px;
     height: 107px;
     left: calc(50% - 835px/2);
-    top: 890px;
   }
   
   /* Heading */
@@ -43,13 +41,12 @@
     align-items: flex-start;
     padding: 0px 10px;
     gap: 10px;
-    width: 835px;
+    width: 100%; /* Use 100% for full width */
     height: 59px;
   }
   
   .heading-text {
-    width: 815px;
-    height: 59px;
+    width: 100%; /* Use 100% for full width */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -68,13 +65,12 @@
     align-items: flex-start;
     padding: 0px 10px;
     gap: 10px;
-    width: 453px;
+    width: 100%; /* Use 100% for full width */
     height: 28px;
   }
   
   .subheading-text {
-    width: 433px;
-    height: 28px;
+    width: 100%; /* Use 100% for full width */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -83,8 +79,6 @@
     text-align: center;
     color: #000000;
   }
-  
-
   
   /* CCA */
   
@@ -104,7 +98,6 @@
   .cca-icon {
     width: 122.97px;
     height: 115px;
-    /* background: url(../assets/image1.png); */
   }
   
   /* CCA Text */
@@ -121,7 +114,7 @@
   }
   
   .cca-title {
-    width: 266px;
+    width: 100%; /* Use 100% for full width */
     height: 100px;
     font-family: 'Roboto';
     font-style: normal;
@@ -132,7 +125,7 @@
   }
   
   .cca-description {
-    width: 266px;
+    width: 100%; /* Use 100% for full width */
     height: 340px;
     font-family: 'Roboto';
     font-style: normal;
@@ -145,7 +138,7 @@
   /* Line 1 */
   .line1 {
     margin: 0 auto;
-    width: 522px;
+    width: 100%; /* Use 100% for full width */
     height: 0px;
     border: 1px solid rgba(0, 0, 0, 0.3);
     transform: rotate(90deg);
@@ -169,7 +162,6 @@
   .itc-icon {
     width: 112.72px;
     height: 112.72px;
-    /* background: url(community.png); */
   }
   
   /* ITC Text */
@@ -186,7 +178,7 @@
   }
   
   .itc-title {
-    width: 266px;
+    width: 100%; /* Use 100% for full width */
     height: 101px;
     font-family: 'Roboto';
     font-style: normal;
@@ -197,7 +189,7 @@
   }
   
   .itc-description {
-    width: 266px;
+    width: 100%; /* Use 100% for full width */
     height: 306px;
     font-family: 'Roboto';
     font-style: normal;
@@ -210,7 +202,7 @@
   /* Line 2 */
   .line2 {
     margin: 0 auto;
-    width: 522px;
+    width: 100%; /* Use 100% for full width */
     height: 0px;
     border: 1px solid rgba(0, 0, 0, 0.3);
     transform: rotate(90deg);
@@ -234,7 +226,6 @@
   .hrc-icon {
     width: 112.72px;
     height: 115px;
-    /* background: url(workspace.png); */
   }
   
   /* HRC Text */
@@ -251,7 +242,7 @@
   }
   
   .hrc-title {
-    width: 266px;
+    width: 100%; /* Use 100% for full width */
     height: 101px;
     font-family: 'Roboto';
     font-style: normal;
@@ -262,7 +253,7 @@
   }
   
   .hrc-description {
-    width: 266px;
+    width: 100%; /* Use 100% for full width */
     height: 282px;
     font-family: 'Roboto';
     font-style: normal;
@@ -275,7 +266,7 @@
   /* Line 3 */
   .line3 {
     margin: 0 auto;
-    width: 522px;
+    width: 100%; /* Use 100% for full width */
     height: 0px;
     border: 1px solid rgba(0, 0, 0, 0.3);
     transform: rotate(90deg);
@@ -299,7 +290,6 @@
   .cci-icon {
     width: 116.14px;
     height: 115px;
-    /* background: url(join.png); */
   }
   
   /* CCI Text */
@@ -316,7 +306,7 @@
   }
   
   .cci-title {
-    width: 263px;
+    width: 100%; /* Use 100% for full width */
     height: 101px;
     font-family: 'Roboto';
     font-style: normal;
@@ -327,7 +317,7 @@
   }
   
   .cci-description {
-    width: 266px;
+    width: 100%; /* Use 100% for full width */
     height: 282px;
     font-family: 'Roboto';
     font-style: normal;

@@ -8,6 +8,7 @@ const Testimonies2 = () => {
                   {/* Frame 16 */}
       <div className="testimonials-heading">
         {/* What Our Customers Say */}
+        
         <div className="testimonials-heading-text">What Our Customers Say</div>
       </div>
 

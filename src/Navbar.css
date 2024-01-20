@@ -58,12 +58,13 @@
   
   /* Button Frame Styles */
   .contact-b {
+    margin-right: 15px;
     padding: 10px 20px;
     background-color: #2C829D;
     border-radius: 10px;
     color: black;
     cursor: pointer;
-    left: -0%;
+    left: 10px;
   }
   
   /* Adjustments for responsiveness */
