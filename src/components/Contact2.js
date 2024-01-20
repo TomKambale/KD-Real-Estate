@@ -26,18 +26,18 @@ function Contact2() {
                   <p className="text-6">Contact Us</p>
                 </div>
               </div>
-              <div className="services">
+              {/* <div className="services">
                 <p className="services-title">Services</p>
                 <div className="services-buttons">
                   <p className="text-7">Service 1</p>
                   <p className="text-8">Service 2</p>
                 </div>
-              </div>
+              </div> */}
               <div className="contact-us">
                 <p className="contact-us-title">Contact Us</p>
                 <div className="contact-us-buttons">
                   <p className="text-9">Phone: 0720899224</p>
-                  <p className="text-10">Email: info@kdrealestate.com</p>
+                  <p className="text-9">Email: info@kdrealestate.com</p>
                 </div>
               </div>
             </div>

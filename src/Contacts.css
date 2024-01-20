@@ -286,7 +286,7 @@
   }
   
   /* Contact Us */
-  
+  /* // Thomas Kambale @  */
   .contact-us {
     display: flex;
     flex-direction: column;
@@ -294,7 +294,7 @@
     padding: 0px;
     gap: 30px;
     margin: 0 auto;
-    width: 281px;
+    width: 200px;
     height: 142px;
     flex: none;
     order: 2;
