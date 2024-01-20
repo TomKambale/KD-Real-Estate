@@ -1,0 +1,84 @@
+/* Navbar.css */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navigation Styles */
+  .navigation {
+    /* background-color: yellow; */
+    width: 100%; /* Set to 100% of the viewport width */
+    height: 80px;
+    justify-content: flex-start;
+    /* padding: 20px; */
+  }
+  
+  /* Logo Styles */
+  .logo-text {
+    font-size: 48px;
+    left: 0%;
+    text-align: start;
+  }
+  
+  .navbar-brand {
+    font-family: 'Rozha One', sans-serif;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* Menu Styles */
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.4);
+    /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); */
+    backdrop-filter: blur(40px);
+  }
+  
+  /* Navigation Item Styles */
+  .navbar-nav {
+    
+    display: flex;
+  }
+  
+  .nav-link {
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Button Frame Styles */
+  .contact-b {
+    padding: 10px 20px;
+    background-color: #2C829D;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    left: -0%;
+  }
+  
+  /* Adjustments for responsiveness */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-nav {
+      margin-top: 10px;
+    }
+  
+    .nav-link {
+      margin: 0;
+    }
+  }
+  
