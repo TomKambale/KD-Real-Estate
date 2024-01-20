@@ -12,7 +12,9 @@ const Services2 = () => {
       {/* WFD heading */}
       <div className="wfd-heading">
         {/* Heading */}
+        wfd whatever
         <div className="heading-container">
+            header
           <div className="heading-text">Why Choose KD Real Estate Agents?</div>
         </div>
 
