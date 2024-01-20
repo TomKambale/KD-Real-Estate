@@ -5,6 +5,8 @@ function Contact2() {
   return (
     <section id="contact" className="contact">
       <div className="container">
+        <div className="kd">KD</div>
+        <div className="kd-real-estate">KD REAL ESTATE</div>
         <div className="footer-top">
           <div className="company-logo-motto">
             <div className="motto">

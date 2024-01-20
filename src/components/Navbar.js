@@ -2,6 +2,9 @@ import React from 'react';
 import '../App.css'; // Update the import statement to match the CSS file location
 
 function Navbar() {
+    const handleContactClick = () => {
+        window.location.href = "mailto:info@kdreal.com?subject=Land%20Purchase%20or%20Sale%20Inquiry";
+      };
   return (
     <section id='nav' className='navigation'>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -19,9 +22,10 @@ function Navbar() {
             <a className="nav-link active" aria-current="page" href="#about">About</a>
             <a className="nav-link active" href="#services">Services</a>
             <a className="nav-link active" href="#testimonies">Testimonies</a>
-          </div>
-          <button className="active contact-b" href="#contact">Contact Us</button>
+            <a className="nav-link active "></a>
+            <button className="contact-b" type='button' onClick={handleContactClick}>Contact Us</button>
 
+          </div>
         </div>
       </nav>
     </section>

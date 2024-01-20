@@ -93,7 +93,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 70px;
-  gap: 683px;
+  gap: 0px;
   position: absolute;
   height: 80px;
   left: 0px;
@@ -143,6 +143,7 @@
   width: 123px;
   height: 23px;
   gap: 10px;
+  left: 1px;
 }
 
 /* Menu Styles */
@@ -179,16 +180,22 @@
 
 /* Button Frame Styles */
 .contact-b {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.44px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
-  padding: 10px, 20px;
+  /* align-items: flex-start; */
+  text-align: center;
+  padding: 10px 20px;
   gap: 10px;
   /* position: absolute; */
   width: 117px;
   height: 43px;
-  left: 5000px;
+  /* left: 0px; */
   top: 0px;
   background-color: #2C829D;
   border-radius: 10px;
