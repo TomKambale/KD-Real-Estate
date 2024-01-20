@@ -254,6 +254,19 @@
 }
 
 /* services */
+.services-section{
+  /* display: flex; */
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  position: absolute;
+  width: 1247px;
+  height: 522px;
+  left: calc(50% - 1247px/2 - 0.5px);
+  top: 1117px;
+}
 .why{
   width: 835px Hug;
   height: 107px Hug;
