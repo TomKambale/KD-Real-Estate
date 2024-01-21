@@ -60,11 +60,11 @@
   .contact-b {
     margin-right: 15px;
     padding: 10px 20px;
-    background-color: #2C829D;
+    /* background-color: #2C829D; */
     border-radius: 10px;
     color: black;
     cursor: pointer;
-    left: 10px;
+    right: 50px;
   }
   
   /* Adjustments for responsiveness */

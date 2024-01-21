@@ -115,7 +115,7 @@
     padding: 0px;
     gap: 30px;
     margin: 0 auto;
-    width: 141px;
+    width: 300px;
     height: 169px;
     flex: none;
     order: 0;
@@ -295,12 +295,12 @@
     align-items: flex-start;
     padding: 0px;
     gap: 30px;
-    margin: 0 auto;
-    width: 200px;
+    /* margin: 0 auto; */
+    width: 900px;
     height: 142px;
     flex: none;
-    order: 2;
-    flex-grow: 0;
+    /* order: 2; */
+    /* flex-grow: 0; */
   }
   
   /* Contact us */
@@ -334,7 +334,7 @@
   /* Text 9 */
   
   .text-9 {
-    width: 227px;
+    /* width: 227px; */
     height: 23px;
     font-family: 'Poppins';
     font-style: normal;
