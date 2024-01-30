@@ -21,7 +21,7 @@ function Navbar() {
           <div className="navbar-nav">
             <a className="nav-link active" aria-current="page" href="#about">About</a>
             <a className="nav-link active" href="#services">Services</a>
-            <a className="nav-link active " href="#testimonies">Testimonies</a>
+            <a className="nav-link active " href="#testimonies2">Testimonies</a>
           </div>   
           <a className="nav-link active "></a>
          

@@ -3,7 +3,7 @@ import '../Testimonials.css';
 
 const Testimonies2 = () => {
   return (
-    <section id="testimonies" className="testimonies">
+    <section id="testimonies2" className="testimonies">
     <div className="testimonials-container">
                   {/* Frame 16 */}
       <div className="testimonials-heading">

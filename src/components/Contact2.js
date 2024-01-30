@@ -5,10 +5,10 @@ function Contact2() {
   return (
     <section id="contact" className="contact">
       <div className="container">
+        <div className="footer-top">
         <div className="kd">KD</div>
         <div className="kd-real-estate">KD REAL ESTATE</div>
-        <div className="footer-top">
-          <div className="company-logo-motto">
+        <div className="company-logo-motto">
             <div className="motto">
               <p className="text-3">
                 Customer experience is at the forefront of our engagements and

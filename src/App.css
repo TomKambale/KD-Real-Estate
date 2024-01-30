@@ -277,7 +277,7 @@
   width: 1247px;
   height: 522px;
   left: calc(50% - 1247px/2 - 0.5px);
-  top: 1117px;
+  top: 750px;
 }
 .why{
   width: 835px Hug;
@@ -461,14 +461,15 @@ gap: 40px;
 }
 
 /* Testimonies.css */
-/* #testimonies {
+#testimonies {
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* Set to 100% of the viewport height 
-} */
+  /* height: 100vh;  */
+  top: 1750px;
+}
 
 /* .testimonies h2 {
   font-family: 'Roboto', sans-serif;
