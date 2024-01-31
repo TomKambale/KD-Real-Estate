@@ -22,10 +22,8 @@ function Navbar() {
             <a className="nav-link active" aria-current="page" href="#about">About</a>
             <a className="nav-link active" href="#services">Services</a>
             <a className="nav-link active " href="#testimonies2">Testimonies</a>
-          </div>   
-          <a className="nav-link active "></a>
-         
-          <button className="contact-b" onClick={handleContactClick}>Contact </button>
+            <button className="contact-b" onClick={handleContactClick}>Get in Touch </button>
+            </div>   
         </div>
       </nav>
     </section>
