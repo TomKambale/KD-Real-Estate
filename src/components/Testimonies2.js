@@ -37,8 +37,6 @@ const Testimonies2 = () => {
       </div>
         </div>
       </div>
-
-
     </div>
     </section>
   );

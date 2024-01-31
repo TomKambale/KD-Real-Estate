@@ -6,7 +6,7 @@
     width: 1440px;
     height: 404px;
     /* left: 0px; */
-    top: 2400px;
+    top: 2100px;
     background: #5EBDF5;
   }
   
@@ -98,7 +98,7 @@
     justify-content: space-between;
     align-items: flex-start;
     padding: 0px;
-    /* gap: 78px; */
+    gap: 78px;
     width: 205px;
     height: 169px;
     flex: none;
