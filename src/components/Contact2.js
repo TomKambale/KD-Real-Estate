@@ -6,9 +6,9 @@ function Contact2() {
     <section id="contact" className="contact">
       <div className="container">
         <div className="footer-top">
-        <div className="kd">KD</div>
-        <div className="kd-real-estate">KD REAL ESTATE</div>
         <div className="company-logo-motto">
+          <div className="kd">KD</div>
+          <div className="kd-real-estate">KD REAL ESTATE</div>
             <div className="motto">
               <p className="text-3">
                 Customer experience is at the forefront of our engagements and
@@ -45,10 +45,10 @@ function Contact2() {
             </div>
           </div>
         </div>
-        <div className="footer-bottom">
+      </div>
+      <div className="footer-bottom">
           <p className="made-by-leonsholo">Design By Leon Sholo</p>
         </div>
-      </div>
     </section>
   );
 }
