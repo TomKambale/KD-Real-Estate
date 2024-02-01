@@ -266,70 +266,75 @@
 }
 
 /* services */
-.services-section{
-  /* display: flex; */
+.services-section {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 0px;
   gap: 40px;
   position: absolute;
-  width: 1247px;
+  width: 100%;
+  /* max-width: 1247px; */
   height: 522px;
-  left: calc(50% - 1247px/2 - 0.5px);
+  left: 50%;
+  transform: translateX(-50%);
   top: 700px;
 }
-.why{
-  width: 835px Hug;
-  height: 107px Hug;
-  top: 890px;
-  left: 302.5px;
+
+.why {
+  width: 100%; /* Adjusted width to fit within .services-section */
+  height: 107px;
   gap: 20px;
 }
+
 .services-heading {
-  width: 835px Hug;
-  height: 59px Hug;
-  padding: 0px, 10px;
+  width: 100%;
+  height: 59px;
+  padding-left: 10px;
+  padding-right: 10px;
   gap: 10px;
-  font-family: 'Roboto', sans-serif; /* Adjust the font family as needed */
-  font-size: 50px; /* Adjust the font size as needed */
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
   font-weight: 500;
-  line-height: 58.59px; /* Adjust the line height as needed */
+  line-height: 58.59px;
   letter-spacing: 0em;
   text-align: center;
-  margin-top: 4rem; /* Adjust margin-top as needed */
-  color: black; /* Set your desired text color */
+  margin-top: 4rem;
+  color: black;
 }
 
 .services-sub {
-  font-family: 'Roboto', sans-serif; /* Adjust the font family as needed */
-  font-size: 24px; /* Adjust the font size as needed */
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
   font-weight: 500;
-  line-height: 28.13px; /* Adjust the line height as needed */
+  line-height: 28.13px;
   letter-spacing: 0em;
   text-align: center;
-  margin-top: 1.5rem; /* Adjust margin-top as needed */
-  color: black; /* Set your desired text color */
+  margin-top: 1.5rem;
+  color: black;
 }
-.services-row{
-  /* background-color: pink; */
+
+.services-row {
+  background-color: #88979f25;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 10px; /* Adjusted padding left and right */
+  gap: 40px;
   width: 100%;
   height: 628px;
   top: 1069px;
 }
 
-
-.wera{
-  background-color: #88979F25;
-  width: 1280px ; 
-  height: 522px ; 
+.wera {
+  width: 100%; /* Adjusted width to fit within .services-row */
+  height: 522px;
   padding-top: 50px;
-  display: flex; 
-  gap: 20px; 
+  display: flex;
+  gap: 20px;
   justify-content: space-between;
-   position: absolute;  
+  position: absolute;
 }
-
 
 
 .service1{
@@ -429,7 +434,8 @@ gap: 40px;
 
 }
 
-.service4{  width: 25%;
+.service4{  
+  width: 25%;
   height: 558px Hug;
   gap: 20px;
 }
